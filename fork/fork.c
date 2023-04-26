@@ -13,8 +13,8 @@ int main(int argc, char* argv[]) {
 	}
 	else if (resultado_fork == 0) {
 		/* Inicio del código del proceso hijo */
-    printf("Hago cosas\n");
-    sleep(3);
+    		printf("Hago cosas\n");
+    		sleep(3);
 
 		/* Finaliza proceso hijo */
 		exit(0);
